@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+h1 {
+  color: #2d572c;
+  margin-bottom: 20px;
+}
+
+.prediction-result {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.uploaded-image, .chemical-image {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.recommendations {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.recommendations h3 {
+  color: #2d572c;
+  margin-bottom: 10px;
+}
+
+.chemical-info {
+  margin: 10px 0;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chemical-info p {
+  margin: 5px 0;
+}
+
+.chemical-info img {
+  margin-top: 10px;
+}
